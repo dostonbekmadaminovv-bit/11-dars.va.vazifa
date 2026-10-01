@@ -1,3 +1,4 @@
+import { books } from "./data.js";
 // import { products } from "./data.js";
 // console.log(products);
 //=======================
@@ -62,29 +63,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////// vazifa \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ///////////////////////////////////////////////////////////////////////////////////////
-let books = [
-  {
-    id: 1,
-    title: "O'tkan kunlar",
-    author: "Abdulla Qodiriy",
-    price: 30000,
-    isRead: true,
-  },
-  {
-    id: 2,
-    title: "Mehrobdan chayon",
-    author: "Abdulla Qodiriy",
-    price: 28000,
-    isRead: false,
-  },
-  {
-    id: 3,
-    title: "Sariq devni minib",
-    author: "Xudoyberdi To'xtaboyev",
-    price: 25000,
-    isRead: false,
-  },
-];
+
 ////=================
 // 1. Create (Yaratish / Qo'shish)
 // ● Foydalanuvchi yangi kitob ma'lumotlarini (nomi, muallifi, narxi) kiritib, ro'yxatga yangi
@@ -149,9 +128,9 @@ let books = [
 //============================================
 // 4. Delete (O'chirish)
 // ● Kitobning idsi bo'yicha uni ro'yxatdan o'chirib tashlash imkoniyati bo'lishi kerak.
-function ochirish(id) {
-  books = books.filter((book) => book.id !== id);
-}
+// function ochirish(id) {
+//   books = books.filter((book) => book.id !== id);
+// }
 
-ochirish(2);
-console.log(books);
+// ochirish(2);
+// console.log(books);

@@ -1,3 +1,26 @@
+export let books = [
+  {
+    id: 1,
+    title: "O'tkan kunlar",
+    author: "Abdulla Qodiriy",
+    price: 30000,
+    isRead: true,
+  },
+  {
+    id: 2,
+    title: "Mehrobdan chayon",
+    author: "Abdulla Qodiriy",
+    price: 28000,
+    isRead: false,
+  },
+  {
+    id: 3,
+    title: "Sariq devni minib",
+    author: "Xudoyberdi To'xtaboyev",
+    price: 25000,
+    isRead: false,
+  },
+];
 // export const products = [
 //   {
 //     id: 1,
