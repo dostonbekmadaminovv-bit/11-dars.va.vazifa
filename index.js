@@ -149,9 +149,9 @@ let books = [
 //============================================
 // 4. Delete (O'chirish)
 // ● Kitobning idsi bo'yicha uni ro'yxatdan o'chirib tashlash imkoniyati bo'lishi kerak.
-// function deleteBook(id) {
-// function ochirish(id) {
-//   books = books.filter((book) => book.id !== id);
-// }
-// ochirish(2);
-// console.log(books);
+function ochirish(id) {
+  books = books.filter((book) => book.id !== id);
+}
+
+ochirish(2);
+console.log(books);
